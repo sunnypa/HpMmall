@@ -8,6 +8,10 @@ import java.util.Set;
  * Created by geely
  */
 public class Const {
+    public interface RedisCacheExtime{
+        int REDIS_SESSION_EXTIME = 60*30;
+    }
+
 
     public static final String CURRENT_USER = "currentUser";
 
